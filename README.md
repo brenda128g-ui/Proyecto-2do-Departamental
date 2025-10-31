@@ -3,7 +3,7 @@
 
 Este es un proyecto de e-commerce completo construido con React, Vite, Supabase y TailwindCSS. La aplicación simula una tienda en línea de plantas y accesorios, permitiendo a los usuarios registrarse, navegar por el catálogo, añadir productos al carrito y finalizar un pedido de demostración.
 
- 🚀 Tecnologías Utilizadas
+🚀 Tecnologías Utilizadas
 
 * *Frontend:* React (con Vite)
 * *Backend & DB:* Supabase (PostgreSQL)
@@ -11,7 +11,7 @@ Este es un proyecto de e-commerce completo construido con React, Vite, Supabase 
 * *Autenticación:* Supabase Auth (Email/Contraseña, Google & GitHub OAuth)
 * *Storage:* Supabase Storage (para imágenes de productos)
 
- 🏛 Arquitectura y Flujo
+🏛 Arquitectura y Flujo
 
 1.  *Autenticación:* El sistema maneja usuarios públicos (anon) y autenticados (authenticated). Se utilizan RLS (Row Level Security) en Supabase para proteger los datos.
 2.  *Catálogo:* Los productos y categorías se cargan desde Supabase DB.
@@ -44,11 +44,9 @@ Para correr este proyecto en tu máquina local, sigue estos pasos:
     VITE_SUPABASE_URL=tu_url_de_proyecto_supabase
     VITE_SUPABASE_ANON_KEY=tu_llave_anon_de_supabase
     
-
 4.  *Corre el proyecto:*
     bash
     npm run dev
-    
 
 👨‍💻 Usuarios de Prueba
 
